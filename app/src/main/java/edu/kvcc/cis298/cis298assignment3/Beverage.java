@@ -6,49 +6,58 @@ import java.util.UUID;
  * Created by aaernie7528 on 11/17/2015.
  */
 public class Beverage {
-    private UUID mNumber;
+    private UUID mId;
+    private String mNumber;
     private String mDescription;
     private String mPackSize;
-    private String mCasePrice;
+    private double mCasePrice;
     private boolean mActive;
 
-    public UUID getmNumber() {
+    public Beverage() {
+        mId = UUID.randomUUID();
+    }
+
+    public UUID getId() {
+        return mId;
+    }
+
+    public String getNumber() {
         return mNumber;
     }
 
-    public void setmNumber(UUID mNumber) {
+    public void setNumber(String mNumber) {
         this.mNumber = mNumber;
     }
 
-    public boolean ismActive() {
+    public boolean isActive() {
         return mActive;
     }
 
-    public void setmActive(boolean mActive) {
+    public void setActive(boolean mActive) {
         this.mActive = mActive;
     }
 
-    public String getmCasePrice() {
+    public double getCasePrice() {
         return mCasePrice;
     }
 
-    public void setmCasePrice(String mCasePrice) {
+    public void setCasePrice(double mCasePrice) {
         this.mCasePrice = mCasePrice;
     }
 
-    public String getmDescription() {
+    public String getDescription() {
         return mDescription;
     }
 
-    public void setmDescription(String mDescription) {
+    public void setDescription(String mDescription) {
         this.mDescription = mDescription;
     }
 
-    public String getmPackSize() {
+    public String getPackSize() {
         return mPackSize;
     }
 
-    public void setmPackSize(String mPackSize) {
+    public void setPackSize(String mPackSize) {
         this.mPackSize = mPackSize;
     }
 }

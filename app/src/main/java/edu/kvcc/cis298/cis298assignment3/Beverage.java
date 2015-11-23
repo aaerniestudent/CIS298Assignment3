@@ -5,6 +5,7 @@ import java.util.UUID;
 /**
  * Created by aaernie7528 on 11/17/2015.
  */
+//beverage POJO
 public class Beverage {
     private UUID mId;
     private String mNumber;
@@ -13,8 +14,14 @@ public class Beverage {
     private double mCasePrice;
     private boolean mActive;
 
-    public Beverage() {
+    //build beverage
+    public Beverage(String number, String description, String packsize, double price, boolean active) {
         mId = UUID.randomUUID();
+        mNumber = number;
+        mDescription = description;
+        mPackSize = packsize;
+        mCasePrice = price;
+        mActive = active;
     }
 
     public UUID getId() {

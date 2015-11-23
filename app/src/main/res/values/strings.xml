@@ -1,10 +1,9 @@
 <resources>
     <string name="app_name">CIS298Assignment3</string>
 
-    <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
 
-    <string name="beverage_name_label">Name</string>
+    <string name="beverage_title_label">Name</string>
     <string name="beverage_id_label">Id:</string>
     <string name="beverage_pack_label">Pack:</string>
     <string name="beverage_price_label">Price:</string>

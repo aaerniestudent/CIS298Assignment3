@@ -2,7 +2,7 @@
 
 ## Author
 
-
+Anthony Aernie
 
 ## Description
 
@@ -47,8 +47,10 @@ Through File System:   app/src/main/res/raw/
 
 ## Outside Resources Used
 
+Layout line
+http://stackoverflow.com/questions/5049852/android-drawing-separator-divider-line-in-layout
 
 
 ## Known Problems, Issues, And/Or Errors in the Program
 
-
+Problem wiring up the recycler view.
